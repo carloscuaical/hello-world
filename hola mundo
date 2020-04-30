@@ -1,0 +1,25 @@
+import math
+print("hola mundo")
+x=9
+y=2.02
+z='0'
+print(str(x)+z)
+print(x+int(z))
+
+a=[x,y,z]
+print(a[1])
+b=(x,y)
+print(b[1])
+
+c={'m':7,'n':8}
+print(c['n'])
+x=3.1415
+print(math.sin(0)) 
+
+first='carlos'
+last="cuaical"
+name=first+' '+last
+print(name)#carlos cuaical
+
+vuelo='landing at \nhare international airport'
+print(vuelo)
